@@ -1,0 +1,25 @@
+h1 {
+  color: #CE0E2D;
+  text-align: center;
+  font-family: sans-serif;
+}
+.standard {
+  color: #2D2A26;
+}
+.head {
+  color: #758692;
+}
+
+.nonavail{
+  color: red;
+}
+
+.avail{
+  color: blue;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}

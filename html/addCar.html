@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Car Detail</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <form id="form1" action="../index.html" method="post">
+
+    <label>Make: </label>
+    <input type="text" name="carMake" value="Kia"><br>
+
+    <label>Model: </label>
+    <input type="text" name="carModel" value="Sedona"><br>
+
+    <label>Year: </label>
+    <input type="number" name="carYear" value="2016"><br>
+
+    <label># of seats: </label>
+    <input type="number" name="carSeat" value="4"><br>
+
+    <label>Price: </label>
+    <input type="number" name="carPrice" step = "0.01" value="1000"><br>
+
+    <div>
+      <input type="button" value="Available" onclick="date_off()"><br>
+      <input type="button" value="Rented" onclick="date_on()"><br>
+    </div>
+
+    <div id="avail"></div>
+
+    <input type="button" value="Add Car" onclick="addingCar()">
+  </form>
+
+  <div id="error"></div>
+
+  <script src="../JS/car.js"></script>
+</body>
+
+</html>
